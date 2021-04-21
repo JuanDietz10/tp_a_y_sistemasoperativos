@@ -1,0 +1,22 @@
+Trabajo Práctico de Arquitectura y Sistemas Operativos, Comandos del 1 al 20
+
+    1  ls -l /bin
+    2  ls -lh /tmp
+    3  ls -r /etc/t*
+    4  ls -l /dev/tty??
+    5  ls -l /dev/tty*[1-4]
+    6  ls -l /dev/t*C1
+    7  ls -la /
+    8  ls -l /etc/[^t]*
+    9  ls -R /usr
+   10  cd /tmp
+   11  pwd
+   12  date
+   13  cd
+   14  pwd
+   15  ls -li
+   16  sudo rm -R /PRUEBA/*
+   17  sudo mkdir -p /PRUEBA/{dir1/dir11,dir2,dir3/dir31/{dir311,dir312}}
+   18  sudo cp /etc/motd /PRUEBA/mensaje/
+   19  sudo cp -a /PRUEBA/mensaje/ /PRUEBA/dir1/ ; sudo cp -a /PRUEBA/mensaje/ /PRUEBA/dir2/ ; sudo cp -a /PRUEBA/mensaje/ /PRUEBA/dir3/
+   20  tree /PRUEBA
